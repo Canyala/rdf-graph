@@ -1,2 +1,2 @@
 # rdf-graph
-An in-memory rdf triple store implementation
+An in-memory rdf-graph triple store implementation
