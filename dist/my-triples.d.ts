@@ -33,7 +33,7 @@ export declare class Graph {
     /**
      * @returns the number of assertions
      */
-    get size(): number;
+    readonly size: number;
     /**
      * Assert statements.
      * @param turtles : an array of string tuples with length = 3|2|1, turtles[0] must have length = 3

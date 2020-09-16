@@ -9,8 +9,8 @@
     "build": "tsc",
     "build:watch": "onchange 'src/**/*.ts' -- npm run build",
     "view:coverage": "serve coverage/lcov-report",
-    "clean": "rm -rf coverage src/**/*.js src/**/*.map",
-    "start": "node src/main.js"
+    "clean": "del /dist /coverage src/**/*.js src/**/*.map",
+    "start": "node dist/index.js"
   },
   "author": "Martin Fredriksson <martin@canyala.se> (www.canyala.se)",
   "license": "ISC",

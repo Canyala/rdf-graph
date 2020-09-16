@@ -4,7 +4,6 @@
  * @description an in memory rdf graph database in the form of a triple store
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Graph = exports.TurtleIterator = exports.GraphIndex = void 0;
 class GraphIndex extends Map {
 }
 exports.GraphIndex = GraphIndex;
