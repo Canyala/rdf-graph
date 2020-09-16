@@ -26,7 +26,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/canyala/rdf-graph.git"
+    "url": "git+https://github.com/Canyala/rdf-graph.git"
   },
   "keywords": [
     "rdf",
@@ -37,7 +37,7 @@
     "n3"
   ],
   "bugs": {
-    "url": "https://github.com/canyala/rdf-graph/issues"
+    "url": "https://github.com/Canyala/rdf-graph/issues"
   },
-  "homepage": "https://github.com/canyala/rdf-graph#readme"
+  "homepage": "https://github.com/Canyala/rdf-graph#readme"
 }
