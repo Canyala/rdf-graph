@@ -1,2 +1,2 @@
-# my-triples
+# rdf-graph
 An in-memory rdf triple store implementation
