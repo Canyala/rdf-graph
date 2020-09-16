@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "test:watch": "jest --coverage --watchAll",
     "build": "tsc",
-    "build:watch": "onchange 'src/**/*.ts' -- npm run build",
     "view:coverage": "serve coverage/lcov-report",
     "clean": "del coverage\\*.* out\\*.* /s /q >> nul",
     "start": "node out/index.js"
