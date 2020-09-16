@@ -1,10 +1,16 @@
 {
   "name": "my-triples",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An implementation of a local triple store.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watchAll",
+    "build": "tsc",
+    "build:watch": "onchange 'src/**/*.ts' -- npm run build",
+    "view:coverage": "serve coverage/lcov-report",
+    "clean": "rm -rf coverage src/**/*.js src/**/*.map",
+    "start": "node src/main.js"
   },
   "author": "Martin Fredriksson <martin@canyala.se> (www.canyala.se)",
   "license": "ISC",
