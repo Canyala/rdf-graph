@@ -1,4 +1,4 @@
-import { Turtles, Graph } from "../rdf-graph"
+import { Turtles, Graph } from "../my-triples"
 
 test('should have size after initialization with turtles', () => {
     let myTurtles: Turtles = [

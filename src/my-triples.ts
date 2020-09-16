@@ -1,11 +1,10 @@
 /**
- * rdf-graph.ts
+ * my-triples.ts
  * @description an in memory rdf graph database in the form of a triple store
  */
 
 export type Turtles = readonly (readonly [string,string,string] | readonly [string,string] | readonly [string])[];
 export type TurtlePatterns = readonly (readonly [string?,string?,string?] | readonly [string?,string?] | readonly [string?])[];
-
 export class GraphIndex extends Map<string,Map<string,Set<string>>> {}
 
 /**
