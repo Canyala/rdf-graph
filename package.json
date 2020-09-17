@@ -1,6 +1,6 @@
 {
   "name": "@canyala/rdf-graph",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An implementation of a local triple store.",
   "main": "index.js",
   "scripts": {
