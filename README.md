@@ -1,4 +1,4 @@
-# rdf-graph
+# @canyala/rdf-graph
 An in-memory rdf-graph triple store implementation!
 
 Under construction.
