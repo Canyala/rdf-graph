@@ -1,5 +1,5 @@
 /**
- * my-triples.ts
+ * rdf-graph.ts
  * @description an in memory rdf graph database in the form of a triple store
  */
 
