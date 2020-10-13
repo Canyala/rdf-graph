@@ -8,7 +8,7 @@
     "build": "tsc",
     "view:coverage": "serve coverage/lcov-report",
     "clean": "del coverage\\*.* out\\*.* /s /q >> nul",
-    "start": "node out/index.js"
+    "start": "node lib/index.js"
   },
   "author": "Martin Fredriksson <martin@canyala.se> (www.canyala.se)",
   "license": "MIT",

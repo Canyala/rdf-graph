@@ -1,1 +1,1 @@
-export * from './out/rdf-graph.js'
+export * from './lib/rdf-graph.js'
