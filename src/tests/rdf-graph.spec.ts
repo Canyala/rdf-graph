@@ -6,6 +6,6 @@ test('should have size after initialization with turtles', () => {
         ['statement'],
         ['word']
     ];
-    const myGraphDB = new Graph(myTurtles); 
+    const myGraphDB = new Graph(myTurtles);
     expect(myGraphDB.size).toBeGreaterThan(0);
 })
