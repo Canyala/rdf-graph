@@ -1,6 +1,6 @@
 /**
  * rdf-graph.ts
- * @description An in memory rdf graph database in the form of a triple store
+ * @description An in memory rdf graph database in the form of a triple store.
  */
 
 export type Turtles = readonly (readonly [string,string,string] | readonly [string,string] | readonly [string])[];
